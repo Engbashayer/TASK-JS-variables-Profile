@@ -11,6 +11,11 @@
 
 // Part 1 answer 👇🏻 ...
 
+let fullName = " Bashayer a almutairi";
+let yearOfBirth = "1991";
+let hoppy = " art ";
+let  funFact = " line fobia ";
+const image = "https://cdn.vectorstock.com/i/preview-1x/68/97/programmer-computer-expert-rgb-color-icon-vector-37206897.jpg" ;
 
 
 
@@ -32,7 +37,12 @@
 // const fullNameString = `My name is ${}`;
 // const yearOfBirthString =
 // const hobbyString =
+let YOUR_AGE = 2023 - yearOfBirth ;
+const fullNameString = ` My name is ${fullName}`;
+const yearOfBirthString = ` i am ${YOUR_AGE}`;
+const hoppyString = `my hoppy is ${hoppy}`;
 
+//console.log(fullNameString, yearOfBirthString, hoppyString);
 
 
 
@@ -45,14 +55,20 @@ let stars = 0;
 
 function incrementBy1() {
   // Increment stars by 1 👇🏻
+  stars++;
 }
 function decrementBy1() {
   // decrement stars by 1 👇🏻
+  stars--;
 }
 
 function incrementBy2() {
   // Increment stars by 2 👇🏻
+  stars= stars + 2;
 }
 function decrementBy2() {
   // decrement stars by 2 👇🏻
+  stars= stars -2;
+  
 }
+
